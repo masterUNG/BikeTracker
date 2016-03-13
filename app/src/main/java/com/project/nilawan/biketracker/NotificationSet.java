@@ -80,7 +80,7 @@ public class NotificationSet extends Activity {
                         e.printStackTrace();
                         return "Error - " + e.getMessage();
                     }
-                }
+                }   // doInBackground
 
                 @Override
                 protected void onPostExecute(String string) {
@@ -118,7 +118,7 @@ public class NotificationSet extends Activity {
                     }
 
 
-                }
+                }   // onPOstExecute
 
                 private void condition() {
 
@@ -137,7 +137,7 @@ public class NotificationSet extends Activity {
 
                     Loop();
 
-                }
+                }   // condition
 
 
             }.execute();
